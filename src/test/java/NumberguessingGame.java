@@ -42,8 +42,7 @@ public class NumberguessingGame {
 
         }while (!(randNum==inputNumber));
 
-        System.out.println("Number of attempts:q" +
-                ":"+attempts);
+        System.out.println("Number of attempts:" +attempts);
         System.out.println("Random number:"+randNum);
         System.out.println("Input number:"+inputNumber);
 
