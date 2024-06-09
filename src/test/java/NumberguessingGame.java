@@ -24,14 +24,10 @@ public class NumberguessingGame {
 
                 if (inputNumber < randNum) {
 
-                    System.out.println("Guess Higher Number");
+                    System.out.println("Guess Higher Number:");
                 }
                 if (inputNumber > randNum) {
-                    System.out.println("Guess Lower Number");
-
-                }
-                if (inputNumber > randNum) {
-                    System.out.println("Guess Lower Number");
+                    System.out.println("Guess Lower Number:");
 
                 }
                 if (inputNumber == randNum) {
