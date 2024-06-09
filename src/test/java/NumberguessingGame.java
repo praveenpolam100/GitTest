@@ -30,6 +30,7 @@ public class NumberguessingGame {
                     System.out.println("Guess Lower Number");
 
                 }
+                //need to delete this duplicate lines
                 if (inputNumber > randNum) {
                     System.out.println("Guess Lower Number");
 
