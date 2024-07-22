@@ -16,11 +16,6 @@ public class RandomTest {
             Random random =  new Random();
             int randomNumber = random.nextInt(100)+1;
 
-            //System.out.println(randomNumber);
-             //Scanner scanner = new Scanner(System.in);
-
-
-
             while(randomNumber!=inputNumber){
 
                 scanner = new Scanner(System.in);
