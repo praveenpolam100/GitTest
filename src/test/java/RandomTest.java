@@ -8,6 +8,7 @@ public class RandomTest {
 
         int inputNumber=0;
         int attempts=0;
+        Scanner scanner =null;
 
 
 
@@ -22,7 +23,7 @@ public class RandomTest {
 
             while(randomNumber!=inputNumber){
 
-                Scanner scanner = new Scanner(System.in);
+                scanner = new Scanner(System.in);
                 if(scanner.hasNextInt()) {
                     inputNumber = scanner.nextInt();
                     attempts++;
@@ -54,6 +55,9 @@ public class RandomTest {
 
         }catch (Exception e){
             e.printStackTrace();
+        }finally {
+            assert scanner != null;
+            scanner.close();
         }
             
    }
