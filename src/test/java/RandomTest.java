@@ -15,7 +15,7 @@ public class RandomTest {
             Random random =  new Random();
             int randomNumber = random.nextInt(100)+1;
 
-            System.out.println(randomNumber);
+            //System.out.println(randomNumber);
              //Scanner scanner = new Scanner(System.in);
 
 
@@ -42,6 +42,7 @@ public class RandomTest {
                 }
                 if(attempts>10){
                     System.out.println("Exceeded number of attempts:" +attempts);
+                    System.out.println("The generated random number was:" +randomNumber);
                     break;
                 }
 
