@@ -16,6 +16,11 @@ public class Test {
         return a*b;
     }
 
+    public static int largeNumberbetweenTwo(int a, int b){
+
+        return Math.max(a, b);
+    }
+
 
 
     public static void main(String[] args) {
