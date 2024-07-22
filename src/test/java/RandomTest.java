@@ -5,8 +5,15 @@ public class RandomTest {
 
     public static void randomNumberGenerator(){
 
-        Scanner scanner = new Scanner(System.in);
-        int inputNumber = scanner.nextInt();
+        try{
+             Scanner scanner = new Scanner(System.in);
+              int inputNumber = scanner.nextInt();
+        }catch(InputMismatchException me){
+            //return exception and continue
+
+        }
+            
+       
 
         System.out.println(inputNumber);
 
