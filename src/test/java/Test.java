@@ -29,6 +29,11 @@ public class Test {
     public static float qubeRoot(float a){
         return a*a*a;
     }
+    public static int largeNumber(int a, int b){
+
+        return a>b? a: b;
+    }
+    
 
 
 
