@@ -4,13 +4,13 @@ public class Test {
 
         return a+b;
     }
-    
+
     /**
      * Description: addition of three integers
      * Author: Praveen Polam
      * Date: 7/28/2024
      */
-    
+
     public static int addNumbers(int a, int b, int c){
         return a+b+c;
     }
@@ -38,9 +38,10 @@ public class Test {
     }
     public static int largeNumber(int a, int b){
 
-        return a>b? a: b;
+        return Math.max(a, b);
     }
-    
+
+
        public static int greaterNumberof3(int a, int b, int c){
         return Math.max(Math.max(a, b), c);
     }
