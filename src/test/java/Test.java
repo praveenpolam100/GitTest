@@ -21,6 +21,15 @@ public class Test {
         return Math.max(a, b);
     }
 
+    public static float squareRoot(float a){
+
+        return a*a;
+    }
+
+    public static float qubeRoot(float a){
+        return a*a*a;
+    }
+
 
 
     public static void main(String[] args) {
