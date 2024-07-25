@@ -26,7 +26,6 @@ public class Test {
         return a*a;
     }
 
-
        public static int greaterNumberof3(int a, int b, int c){
         return Math.max(Math.max(a, b), c);
     }
