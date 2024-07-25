@@ -4,10 +4,16 @@ public class ReverseString {
 
     public static String reverseStringusingStringBuilder(String message){
 
-        StringBuilder stringBuilder = new StringBuilder(message);
-        stringBuilder.reverse();
-        return stringBuilder.toString();
+        String returnMessage = "\0";
+       if(!message.isEmpty()){
+           StringBuilder stringBuilder = new StringBuilder(message);
+           stringBuilder.reverse();
+           returnMessage = stringBuilder.toString();
+
+       }
+        return returnMessage;
     }
+
 
     public static String reverseStringUsingloop(String message){
 
