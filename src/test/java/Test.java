@@ -26,12 +26,8 @@ public class Test {
         return a*a;
     }
 
-    public static float qubeRoot(float a, float b, float c){
-        return a*b*c;
 
-    }
-
-    public static int greaterNumberof3(int a, int b, int c){
+       public static int greaterNumberof3(int a, int b, int c){
         return Math.max(Math.max(a, b), c);
     }
 
