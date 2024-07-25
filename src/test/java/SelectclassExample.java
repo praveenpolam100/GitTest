@@ -22,5 +22,7 @@ public class SelectclassExample {
         for (WebElement webElement : webElementList){
             System.out.println(webElement.getText());
         }
+
+
     }
 }
