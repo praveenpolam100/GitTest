@@ -26,10 +26,6 @@ public class Test {
         return a*a;
     }
 
-    public static float qubeRoot(float a){
-        return a*a*a;
-    }
-
 
 
     public static void main(String[] args) {
