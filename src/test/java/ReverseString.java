@@ -83,7 +83,7 @@ public class ReverseString {
         Object object = reverseStringusingObject(5656);
 
         System.out.println(object);
-        Object object = reverseStringusingObject("Praveen");
+        object = reverseStringusingObject("Praveen");
         System.out.println(object);
         
 
