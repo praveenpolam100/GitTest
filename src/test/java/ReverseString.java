@@ -29,11 +29,55 @@ public class ReverseString {
         return  revString;
     }
 
+    public static Object reverseStringusingObject(Object object){
+
+        if (!(object instanceof String || object instanceof Integer)){
+
+            throw new IllegalArgumentException("The object is not a String or not a Integer");
+        }
+
+        Object returnObject=null;
+
+        if(object instanceof String){
+
+
+            StringBuilder stringBuilder = new StringBuilder(String.valueOf(object));
+            returnObject = stringBuilder.reverse().toString();
+
+
+
+        }
+
+        if (object instanceof Integer){
+
+            int number = (Integer) object;
+
+            int reverseNumber = 0;
+
+            while(number >0){
+                int lastDigit = number%10;
+                reverseNumber = reverseNumber*10+lastDigit;
+                number = number/10;
+            }
+
+            returnObject = reverseNumber;
+        }
+
+        return returnObject;
+
+    }
+
 
     public static void main(String[] args) {
 
         String message ="praveen";
         String revmessage = reverseStringUsingloop(message);
         System.out.println(revmessage);
+
+        Object object = reverseStringusingObject(5656);
+
+        System.out.println(object);
+
+
     }
 }
