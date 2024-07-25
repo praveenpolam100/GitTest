@@ -4,11 +4,11 @@ public class Test {
 
         return a+b;
     }
-    public static int add(int a, int b, int c){
+    public static int addNumbers(int a, int b, int c){
         return a+b+c;
     }
     public static int subtract(int a, int b){
-        return a-b;
+        return Math.abs(a-b);
     }
 
     public static int multiplyTwoInt(int a, int b){
@@ -29,6 +29,7 @@ public class Test {
     public static float qubeRoot(float a){
         return a*a*a;
     }
+
 
 
 
