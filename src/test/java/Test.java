@@ -33,7 +33,7 @@ public class Test {
 
         int sum = Test.add(10, 20);
         System.out.println(sum);
-       int sum1 =  Test.add(10, 20, 40);
+       int sum1 =  Test.addNumbers(10, 20, 40);
        System.out.println(sum1);
     }
 }
