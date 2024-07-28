@@ -11,6 +11,13 @@ public class Test {
 
         return a+b;
     }
+    
+    /**
+     * Description: addition of three integers
+     * Author: Praveen Polam
+     * Date: 7/28/2024
+     */
+    
     public static int addNumbers(int a, int b, int c){
         return a+b+c;
     }
