@@ -1,5 +1,12 @@
 public class Test {
 
+    
+    /**
+     * Description: addition of two numbers
+     * Author: Praveen Polam
+     * Date: 7/28/2024
+     */
+    
     public static int add(int a, int b){
 
         return a+b;
