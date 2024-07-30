@@ -50,5 +50,8 @@ public class Test {
 
         int multiplytwoInt =multiplyTwoInt(10, 35);
         System.out.println(multiplytwoInt);
+
+        int largeNumber = largeNumberbetweenTwo(10, 35);
+        System.out.println("The large number between two:" +largeNumber);
     }
 }
