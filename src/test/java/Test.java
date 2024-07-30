@@ -45,5 +45,7 @@ public class Test {
         System.out.println(sum);
        int sum1 =  Test.addNumbers(10, 20, 40);
        System.out.println(sum1);
+       float sqrootNumber = squareRoot(10);
+        System.out.println(sqrootNumber);
     }
 }
