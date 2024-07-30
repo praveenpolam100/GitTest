@@ -47,5 +47,8 @@ public class Test {
        System.out.println(sum1);
        float sqrootNumber = squareRoot(10);
         System.out.println(sqrootNumber);
+
+        int multiplytwoInt =multiplyTwoInt(10, 35);
+        System.out.println(multiplytwoInt);
     }
 }
