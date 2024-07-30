@@ -33,7 +33,14 @@ public class Test {
         return a*a;
     }
 
+    public static float qubeRoot(float a){
+        return a*a*a;
+    }
+    public static int largeNumber(int a, int b){
 
+        return a>b? a: b;
+    }
+    
        public static int greaterNumberof3(int a, int b, int c){
         return Math.max(Math.max(a, b), c);
     }
