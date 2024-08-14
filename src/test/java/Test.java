@@ -37,7 +37,7 @@ public class Test {
     }
     public static int largeNumber(int a, int b){
 
-        return a>b? a: b;
+        return Math.max(a, b);
     }
     
        public static int greaterNumberof3(int a, int b, int c){
