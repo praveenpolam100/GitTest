@@ -28,6 +28,6 @@ public class Bisearch {
         int num = 6;
 
         int position = searchAlgirithm(numbers, num);
-        System.out.println(position);
+        System.out.println("The position of the number in the array is: "+position);
     }
 }
