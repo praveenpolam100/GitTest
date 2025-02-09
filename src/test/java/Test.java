@@ -1,3 +1,5 @@
+import static java.lang.Math.round;
+
 public class Test {
 
     public static int add(int a, int b){
@@ -44,6 +46,17 @@ public class Test {
         return Math.max(Math.max(a, b), c);
     }
 
+    public static long roundingdoubleNumber(double a){
+        return Math.round(a);
+    }
+
+    //print the math table
+    public static void mathTable(int num){
+        for (int i=1; i<=10; i++){
+            System.out.println(num + "*" + i + "="+num*i);
+        }
+    }
+
 
     public static void main(String[] args) {
 
@@ -56,5 +69,9 @@ public class Test {
 
         int multiplytwoInt =multiplyTwoInt(10, 35);
         System.out.println(multiplytwoInt);
+
+        System.out.println(roundingdoubleNumber(1234.343f));
+
+        mathTable(5);
     }
 }
