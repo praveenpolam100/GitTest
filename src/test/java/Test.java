@@ -50,6 +50,13 @@ public class Test {
         return Math.round(a);
     }
 
+    //print the math table
+    public static void mathTable(int num){
+        for (int i=1; i<=10; i++){
+            System.out.println(num + "*" + i + "="+num*i);
+        }
+    }
+
 
     public static void main(String[] args) {
 
@@ -64,5 +71,7 @@ public class Test {
         System.out.println(multiplytwoInt);
 
         System.out.println(roundingdoubleNumber(1234.343f));
+
+        mathTable(5);
     }
 }
