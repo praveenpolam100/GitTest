@@ -57,6 +57,11 @@ public class Test {
         }
     }
 
+    public static void mathTableXandY(int num, int end){
+        for (int i=1; i<=end; i++){
+            System.out.println(num + "*" + i + "="+num*i);
+        }
+    }
 
     public static void main(String[] args) {
 
@@ -73,5 +78,6 @@ public class Test {
         System.out.println(roundingdoubleNumber(1234.343f));
 
         mathTable(5);
+        mathTableXandY(5, 25);
     }
 }
